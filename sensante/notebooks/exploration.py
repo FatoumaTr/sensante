@@ -40,4 +40,5 @@ for diag, temp in temp_by_diag.items():
 print("=" * 50)
 print("Exploration terminee !")
 print("Prochain lab : entrainer un modele ML")
+print(df.groupby(["sexe", "diagnostic"]).size())
 print("=" * 50)
